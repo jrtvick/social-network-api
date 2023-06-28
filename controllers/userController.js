@@ -16,16 +16,13 @@ const userController = {
     try {
       const user = await User.findOne({ _id: req.params.userId }).select(
         "-__v"
-      );
+      ).populate("thoughts").populate("friends");
 
       if (!user) {
         return res.status(404).json({ message: "That user doesn't exist" });
       }
 
-      res.json({
-        user,
-        thought: await thought(req.params.userId),
-      });
+      res.json(user);
     } catch (err) {
       console.log(err);
       return res.status(500).json(err);
