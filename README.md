@@ -24,6 +24,7 @@ The goal of this social network API is to create a social network application wi
 
 ## Demonstration
 
+[Tylers_SocialNetworkAPI_Walkthrough.webm](https://github.com/jrtvick/social-network-api/assets/130930081/a072de28-0099-463e-9cd1-af2226db1365)
 
 
 <br>
@@ -32,7 +33,7 @@ The goal of this social network API is to create a social network application wi
 
 The application utilizes a range of technogies to delivere its functionality. These include:
 
-- Back-End Technologies:
+- Back-End:
 
   - Node.js
   - Express
@@ -41,7 +42,7 @@ The application utilizes a range of technogies to delivere its functionality. Th
 
   - MongoDB
 
-- Object-Document Mapping
+- Object-Document Mapping:
 
   - Mongoose
 
