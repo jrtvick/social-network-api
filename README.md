@@ -24,18 +24,7 @@ The goal of this social network API is to create a social network application wi
 
 ## Demonstration
 
-Application Demonstration:\
-Watch it on [Google Drive](https://drive.google.com/file/d/1qlkqXpcp6kbhGJg-RQqgDM76_acSQbQc)🖥️
 
-Application Preview:
-
-![User going through the GET routes, and starting over.](./assets/GET.gif)
-
-![User going through the POST routes, and starting over.](./assets/POST.gif)
-
-![User going through the PUT routes, and starting over.](./assets/PUT.gif)
-
-![User going through the DELETE routes, and starting over.](./assets/DELETE.gif)
 
 <br>
 
